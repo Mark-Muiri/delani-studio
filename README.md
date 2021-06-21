@@ -5,7 +5,7 @@ Description
 This is a landing page for Delani studio. Users visiting the page are able to know more about Delani Studio, the services they offer, view their portfolio and also contact them.
 
 ## landing
-https://github.com/Mark-Muiri/delani-studio/issues/1#issue-926006361
+![Screenshot from 2021-06-21 12-15-52](https://user-images.githubusercontent.com/85283054/122738286-87c3ad80-d28a-11eb-9323-e2f6d6c8ae13.png)
 
 ## Development
 To make advancements/modifications, follow these steps:
