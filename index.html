@@ -135,7 +135,12 @@
     <img src="pinterest.png" alt="pinterest">
     <img src="flickr.png" alt="flickr">
     <p>DELANI STUDIO</p>
-    <p>2021</p>
+    <p id="date"></p>
+
+    <script>
+    const d = new Date();
+    document.getElementById("date").innerHTML = d.getFullYear();
+    </script>
   </footer>
  </body>
 </html>
