@@ -5,6 +5,7 @@ Description
 This is a landing page for Delani studio. Users visiting the page are able to know more about Delani Studio, the services they offer, view their portfolio and also contact them.
 
 ## landing
+bg1.jpg
 
 ## Development
 To make advancements/modifications, follow these steps:
