@@ -59,3 +59,50 @@ $().ready(function(){
       $("#overlay4").hide();
     });
   
+  
+  
+    $("#work5").mouseover(function(){
+      $("#overlay5").show();
+    })
+    .mouseout(function(){
+      $("#overlay5").hide();
+    })
+
+    $("#work6").mouseover(function(){
+      $("#overlay6").show();
+    })
+    .mouseout(function(){
+      $("#overlay6").hide();
+    })  
+    
+    $("#work7").mouseover(function(){
+      $("#overlay7").show();
+    })
+    .mouseout(function(){
+      $("#overlay7").hide();
+    })
+
+    $("#work8").mouseover(function(){
+      $("#overlay8").show();
+    })
+    .mouseout(function(){
+      $("#overlay8").hide();
+    });
+  
+  
+  
+    $("form#form34A").submit(function(event){
+      // event.preventDefault();
+      var name = $("input#MERGE1").val();
+      var email = $("input#MERGE0").val();
+      var message = $("textarea#comment").val();
+      if ($("input#MERGE1").val() && $("input#MERGE0").val()){
+        alert (name + ", we have received your message. Thank you for reaching out to us.");
+      }
+      else {
+        alert("Please enter your name and email!");
+      }
+      
+    });
+  });    
+  
