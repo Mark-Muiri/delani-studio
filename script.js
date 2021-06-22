@@ -11,12 +11,12 @@ $().ready(function(){
   
   
     $('#design-prt').click(function(){
-      $('#design-image').slideUp();
+      $('#design-image').slidDown();
       $('#design').slideDown();
     });
     $('#design-prt').click(function(){
-      $('#design').toggle('slow').hide();
-      $('#design-image').show();
+      $('#design').slideUp('1500');
+      $('#design-image').slideDown('1500');
     });
   
   
