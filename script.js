@@ -11,8 +11,8 @@ $().ready(function(){
   
   
     $('#design-prt').click(function(){
-     $('#design-image').slideDown();
-     $('#design').slideDown();
+     $('#design-image').slideDown('1000');
+     $('#design').show();
     });
     $('#design-prt').click(function(){
       $('#design').slideUp('1500');
